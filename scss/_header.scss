@@ -1,0 +1,42 @@
+header{
+    width: 100%;
+    .d-flex{
+        width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: solid #11011623;
+    box-shadow: 0 0 20px 1px rgb(12, 12, 11)
+    }
+    .textos-header{
+        display: flex;
+        
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .textos-header h1{
+        padding: 20px 0;
+        font-size: 50px;
+        color: $txt-titulos;
+    }
+    .textos-header h2{
+        font-size: 30px;
+        font-weight: 300;
+        color: $txt-titulos;
+    }
+    
+    nav{
+        font-size: xx-large;
+        border: solid rgba(17, 1, 22, 0.137);
+        box-shadow: 0 0 20px 1px rgb(10, 9, 7);
+        border-radius: 10px;
+        margin: 20px
+        
+    }
+}

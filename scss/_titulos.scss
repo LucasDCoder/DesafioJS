@@ -1,0 +1,41 @@
+.contenedor {
+    padding: 70px 0;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+h1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-left: 630px;
+    
+    
+}
+
+h2{
+    color: $txt-titulos;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h3{
+    color: $txt-titulos;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+p{
+    color: $txt-titulos;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+h4{
+    color: $txt-titulos;
+    font-size: x-large;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Radio Canada', sans-serif;
+    background: #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg{
+    background-image: url(../img/gamers-555x313.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portada{
+    background-image: url(../img/fondo1.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+    opacity: 0.6;
+    border-radius: 10px
+}
