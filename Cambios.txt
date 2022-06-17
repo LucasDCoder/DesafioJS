@@ -1,0 +1,9 @@
+- HTMLs secundarios puestos en su carpeta correspondiente con rutas actualizadas.
+
+- Se agregaron las keywords y descriptions de SEO.
+
+- Correcciones ortográficas.
+
+- Un @mixin para varios de los títulos.
+
+- Cambio en los títulos y fuente.

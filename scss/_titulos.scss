@@ -1,3 +1,9 @@
+@mixin tituloMix{
+    color: $txt-titulos;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 .contenedor {
     padding: 70px 0;
     width: 80%;
@@ -15,27 +21,29 @@ h1{
     
 }
 
-h2{
-    color: $txt-titulos;
-    font-size: xx-large;
-    text-align: center;
+.titulo-productos{
+    @include tituloMix();
+    font-size: 2.5em;
+    font-weight: bold;
+    
 }
 
+
 h3{
-    color: $txt-titulos;
-    font-size: x-large;
-    margin-bottom: 30px;
+    @include tituloMix()
+    
 }
 
 p{
-    color: $txt-titulos;
-    font-size: x-large;
-    margin-bottom: 30px;
+    @include tituloMix()
 }
 
 h4{
-    color: $txt-titulos;
-    font-size: x-large;
-    margin-bottom: 30px;
-    text-decoration: underline;
+    @include tituloMix()
+    
+}
+
+.textos-header .titulo-index{
+    font-size: 6em;
+    font-weight: bold;
 }

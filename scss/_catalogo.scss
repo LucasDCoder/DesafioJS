@@ -1,0 +1,31 @@
+.contenedor-productos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tituloCatalogo{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.box img{
+    width: 220px;
+    height: 280px;
+    border-radius: 30px;
+}
+
+.box{
+    margin: 15px;
+}
+
+.box p{
+    text-align: center;
+    font-size: 20px;
+}
