@@ -33,3 +33,54 @@ textarea{
 #boton:hover{
     cursor: pointer;
 }
+
+.seccion-nosotros{
+    width: 100%;
+    min-height: 60vh;
+    background-color: rgba(8, 8, 8, 0.24);
+}
+
+.contenedor-nosotros{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+}
+
+
+.titulo-nosotros h2{
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.contenido-nosotros .contenido h3{
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.contenido-nosotros .contenido p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.contenido-nosotros .contenido .button{
+    margin-top: 40px;
+}
+
+.contenido-nosotros .contenido .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+.contenido-nosotros .contenido .button a:hover{
+    background-color: #a52a2a; 
+    color: #fff;
+}

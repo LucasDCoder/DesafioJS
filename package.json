@@ -1,7 +1,6 @@
 {
   "name": "desafiosass",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "animate.css": "^4.1.1"
@@ -16,5 +15,14 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasDCoder/DesafioSEO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LucasDCoder/DesafioSEO/issues"
+  },
+  "homepage": "https://github.com/LucasDCoder/DesafioSEO#readme",
+  "description": ""
 }

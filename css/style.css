@@ -167,6 +167,25 @@ h4 {
   h1 {
     display: none; } }
 
+@media screen and (max-width: 768px) {
+  .contenedor-nosotros {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px; }
+  .contenido-nosotros {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto; }
+  .contenido-nosotros .titulo-nosotros {
+    text-align: center;
+    font-size: 19px; }
+  .contenido-nosotros .contenido .boton {
+    text-align: center; }
+  .contenido-nosotros .contenido .boton a {
+    padding: 9px 30px; } }
+
 .formulario {
   width: 450px;
   margin: auto;
@@ -197,6 +216,48 @@ textarea {
 #boton:hover {
   cursor: pointer; }
 
+.seccion-nosotros {
+  width: 100%;
+  min-height: 60vh;
+  background-color: rgba(8, 8, 8, 0.24); }
+
+.contenedor-nosotros {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 60px; }
+
+.titulo-nosotros h2 {
+  margin-top: 20px;
+  color: aliceblue;
+  font-size: 40px; }
+
+.contenido-nosotros .contenido h3 {
+  margin-top: 20px;
+  color: aliceblue;
+  font-size: 35px; }
+
+.contenido-nosotros .contenido p {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5; }
+
+.contenido-nosotros .contenido .button {
+  margin-top: 40px; }
+
+.contenido-nosotros .contenido .button a {
+  background-color: #3d3d3d;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1.5px; }
+
+.contenido-nosotros .contenido .button a:hover {
+  background-color: #a52a2a;
+  color: #fff; }
+
 .contenedor-productos {
   width: 100%;
   display: flex;
@@ -223,3 +284,43 @@ textarea {
 .box p {
   text-align: center;
   font-size: 20px; }
+
+.contenedor-serv {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+
+.carta {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.3s; }
+
+.carta:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+.carta img {
+  width: 330px;
+  height: 220px; }
+
+.carta h4 {
+  font-weight: 600; }
+
+.carta p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300; }
+
+.carta a {
+  font-weight: 500;
+  text-decoration: none;
+  color: black; }

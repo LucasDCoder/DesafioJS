@@ -12,3 +12,29 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 768px){
+    .contenedor-nosotros{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .contenido-nosotros{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .contenido-nosotros .titulo-nosotros{
+        text-align: center;
+        font-size: 19px;
+    }
+    .contenido-nosotros .contenido .boton{
+        text-align: center;
+    }
+    .contenido-nosotros .contenido .boton a{
+        padding: 9px 30px;
+    }
+    
+}
