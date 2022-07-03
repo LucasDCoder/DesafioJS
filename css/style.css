@@ -55,11 +55,13 @@ header {
     font-weight: 300;
     color: aliceblue; }
   header nav {
-    font-size: xx-large;
+    font-size: large;
     border: solid rgba(17, 1, 22, 0.137);
     box-shadow: 0 0 20px 1px #0a0907;
     border-radius: 10px;
     margin: 20px; }
+  header .nav-item a i {
+    font-size: 20px; }
 
 .pie {
   width: 100%;
@@ -79,11 +81,25 @@ header {
 .pie .grupo-1 .box h2 {
   color: aliceblue;
   margin-bottom: 25px;
-  font-size: 20px; }
+  font-size: 15px;
+  text-align: center; }
+
+.pie .grupo-1 .box2 h2 {
+  color: aliceblue;
+  margin-bottom: 25px;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 60px; }
+
+.pie .grupo-1 .box h4 {
+  color: aliceblue;
+  margin-bottom: 25px;
+  font-size: 15px; }
 
 .pie .grupo-1 .box p {
   color: beige;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 10px; }
 
 .pie .grupo-1 .red-social a {
   display: inline-block;
@@ -92,10 +108,12 @@ header {
   height: 45px;
   line-height: 45px;
   color: aliceblue;
-  margin-right: 10px;
   background-color: #000428;
   text-align: center;
-  border-radius: 20px; }
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+  justify-content: center; }
 
 .pie .grupo-2 {
   background-color: #252121;
@@ -288,10 +306,10 @@ textarea {
 .contenedor-serv {
   width: 100%;
   max-width: 1200px;
-  height: 430px;
+  height: 500px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin: auto; }
 
 .carta {
