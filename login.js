@@ -1,9 +1,9 @@
 function login(){
-    var usuario = document.getElementById("user").value
+    var user = document.getElementById("user").value
     var password = document.getElementById("password").value
 
     let user = "prueba"
-    let pass = "12345"
+    let password = "123"
 
     if(usuario==user && password==12345){
         alert("Usuario correcto")
