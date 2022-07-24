@@ -5,9 +5,9 @@ function login(){
     let user = "prueba"
     let password = "123"
 
-    if(usuario==user && password==12345){
+    if(usuario==user && password==123){
         alert("Usuario correcto")
-        document.location.href = "login.html"
+        document.location.href = "Login.html"
     }else{
         alert("Usuario o contraseña incorrecto")
         document.location.href = "index.html"
