@@ -7,9 +7,9 @@ function login(){
 
     if(usuario==user && password==12345){
         alert("Usuario correcto")
-        document.location.href = "login.html"
+        document.location.href = "./pages/login.html"
     }else{
         alert("Usuario o contraseña incorrecto")
-        document.location.href = "./index.html"
+        document.location.href = "index.html"
     }
 }
