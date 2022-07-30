@@ -1,15 +1,29 @@
 function login(){
-    var usuario = document.getElementById("user").value
-    var password = document.getElementById("password").value
+    let user = document.getElementById("user").value
+    let password = document.getElementById("password").value
 
-    let user = "prueba"
-    let pass = "12345"
+    let usuarios = [
+        {
+            user: "lucas",
+            password: "1234"
+        },
+        {
+            user: "jose",
+            password: "hola"
+        },
+        {
+            user: "pablo",
+            password: "4321"
+        }
+    ]
 
-    if(usuario==user && password==12345){
-        alert("Usuario correcto")
-        document.location.href = "pages/login.html"
-    }else{
-        alert("Usuario o contraseña incorrecto")
-        document.location.href = "index.html"
+    for(i = 0; i < usuarios.length; i++){
+        if(user == usuarios[i].user && password == usuarios[i].password){
+            alert("Usuario correcto")
+            document.location.href = "pages/login.html"
+            return
+        }
     }
+    alert("Usuario o contraseña incorrecto")
+    document.location.href = "index.html"
 }
