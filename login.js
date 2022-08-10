@@ -20,7 +20,7 @@ function login(){
     let usuario = usuarios.find(usuario => usuario.user === user && usuario.password === password);
         
     if(usuario){
-        document.location.href = "../index.html"
+        document.location.href = "./pages/login.html"
         return
     }
 }
