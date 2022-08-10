@@ -4,6 +4,11 @@
   box-sizing: border-box; }
 
 body {
+  --color-primary: #009576;
+  --color-primary-dark: #007f67;
+  --color-secondary: #252c6a;
+  --color-error: #cc3333;
+  --color-correcto: #4bb544;
   font-family: 'Kdam Thmor Pro', sans-serif;
   background: #355C7D;
   /* fallback for old browsers */
@@ -17,6 +22,38 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+
+.form-ocultar{
+  display: none;
+}
+
+.form_mensajeCorrecto{
+  color: var(--color-correcto)
+}
+
+
+.form_mensajeError{
+  color: var(--color-error)
+
+}
+.form_mensaje{
+  color: var(--color-error)
+}
+
+
+.form-inputError{
+  color: var(--color-error)
+}
+
+.form-link{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-link:hover{
+  text-decoration: underline;
+}
 
 .portada {
   background-image: url(../img/fondo1.jpg);

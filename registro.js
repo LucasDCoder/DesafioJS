@@ -1,22 +1,22 @@
-    registro()
+    // // registro()
     
-    function registro(){
-        alert("Bienvenido");
+    // // function registro(){
+    // //     alert("Bienvenido");
     
-        let estaRegistrado = prompt("Esta registrado?: SI/NO").toLowerCase()
+    // //     let estaRegistrado = prompt("Esta registrado?: SI/NO").toLowerCase()
     
-        if(estaRegistrado === "si"){
-            document.location.href = "pages/login.html"
-            alert("hola!")
-            return
+    // //     if(estaRegistrado === "si"){
+    // //         document.location.href = "pages/login.html"
+    // //         alert("hola!")
+    // //         return
 
-        }else{
-            alert("Registrate")
-            document.location.href = "pages/registro.html"
+    // //     }else{
+    // //         alert("Registrate")
+    // //         document.location.href = "pages/registro.html"
             
             
-        }
-    }
+    // //     }
+    // // }
    
     
     // function login(){
