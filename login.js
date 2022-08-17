@@ -14,8 +14,6 @@ const usuarios3 = new usuarios(3, "pablo", 3333)
 
 let listaUsuarios = []
 
-let usuariosStorage = []
-
 if(localStorage.getItem("listaUsuarios")){
     listaUsuarios = JSON.parse(localStorage.getItem("listaUsuarios"))
     console.log(listaUsuarios)
