@@ -72,12 +72,13 @@ document.addEventListener("DOMContentLoaded", () => {
         listaUsuarios.push(nuevoUsuario)
         localStorage.setItem("listaUsuarios", JSON.stringify(listaUsuarios))
 
-        for(i = 0; i < listaUsuarios.length; i++){
-            if(registroUsuario === listaUsuarios[i]["user"]){ 
-                formMensaje(formRegistro, "error", "El usuario ya existe");
-                return
-            }
-        }
+        // for(i = 0; i < listaUsuarios.length; i++){
+        //     if(registroUsuario === listaUsuarios[i]["user"]){ 
+        //         formMensaje(formRegistro, "error", "El usuario ya existe");
+        //         return
+        //     }
+
+        // }
     }
     
 });
