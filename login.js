@@ -52,13 +52,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
         for(let i = 0; i < listaUsuarios.length; i++){
             if(user == listaUsuarios[i]["user"] && password == listaUsuarios[i]["password"]){
+                Swal.fire({
+                    title: 'BIENVENIDO',
+                    text: 'Has iniciado sesión',
+                    icon: 'success',
+                    confirmButtonText: 'Continuar'
+                  })
                 console.log("sesion iniciada");
                 return
             } 
-            // else{
-            //     formMensaje(formLogin, "error", "Usuario o contraseña incorrecto")
-            //     return
-            // }
+            else{
+                formMensaje(formLogin, "error", "Usuario o contraseña incorrecto")
+                return
+            }
         }
         
     };
